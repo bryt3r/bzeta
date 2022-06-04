@@ -263,7 +263,7 @@ button {
         align-items: center;
         flex-direction: column;
         height: auto;
-        width: 90vw;
+        width: 80vw;
         position: static;
     }
 
@@ -271,8 +271,8 @@ button {
         font-size: 5vw;
         margin: 20px 0px;
         padding: 8px 16px;
-        height: 45vh;
-        width: 80%;
+        height: 80vw;
+        width: 100%;
     }
 
     #main {
