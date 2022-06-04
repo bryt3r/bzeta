@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.contactbar {
+    font-size: 0.8vw;
+    background-color: rgb(8, 8, 120);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.contactbar ul {
+    list-style-type: none
+}
+
+.contactbar ul li{
+    display: inline;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    padding: 3px 55px;
+    color: rgb(8, 8, 120);
+    background-color: whitesmoke;
+}
+
+#menu-icon {
+    display: none;
+}
+
+.bar-item {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(8, 8, 120);
+    margin: 5px 0;
+}
+
+#nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li a,
+#navbar a {
+    display: block;
+    /* color: rgb(8, 8, 120); */
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: rgb(8, 8, 120);
+}
+
+#main {
+    padding-bottom: 8rem;
+    /* Footer height */
+}
+
+.hero-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 90vw; */
+    height: 60vh;
+    background-color: lightslategray;
+}
+
+.hero-back {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-back img {
+    object-fit: cover;
+    opacity: 0.4;
+    flex: 2;
+}
+
+.left-hero-back {
+    opacity: 0.6;
+    flex: 1;
+    background-color: navy;
+}
+
+.hero-front {
+    padding: 10px 50px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+
+}
+
+.hero-front p {
+    font-size: 2vw;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.post-hero-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18vw;
+    width: 80vw;
+    position: relative;
+    top: -50px;
+}
+
+.post-hero-box {
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: lightskyblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px lightblue;
+    height: 85%;
+    width: 20%;
+}
+
+.post-hero-box p {
+    text-align: center;
+}
+
+#footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    /* Footer height */
+}
+
+#footer-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-sm-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .contactbar {
+        font-size: 2.2vw;
+        
+        padding: 2px 10px;
+    }
+    
+    #navbar {
+        padding: 3px 10px;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    #nav-content {
+        position: relative;
+    }
+
+    .mobile-nav {
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        padding: 0px 35px;
+        position: absolute;
+        top: 50px;
+        right: -55px;
+    }
+
+    .hero-back {
+        flex-direction: column;
+    }
+
+    .hero-back img {
+        flex: 1;
+    }
+
+    .left-hero-back {
+        display: none;
+        flex: 1;
+    }
+
+    .hero-front p {
+        font-size: 5vw;
+    }
+
+    .post-hero-wrapper {
+        margin-top: 40px;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 90vw;
+        position: static;
+    }
+
+    .post-hero-box {
+        font-size: 5vw;
+        margin: 20px 0px;
+        padding: 8px 16px;
+        height: 45vh;
+        width: 80%;
+    }
+
+    #main {
+        padding-bottom: 20rem;
+        /* Footer height */
+    }
+
+    #footer {
+        height: 18rem;
+    }
+
+   
+
+    #footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
