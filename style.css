@@ -213,7 +213,7 @@ button {
     width: 20%;
     height: 80%;
     color: rgb(8, 8, 120);
-    background-color: #BCD2E8;
+    background-color: #cadff4;
 }
 
 .view-gallery-wrapper {
@@ -418,7 +418,7 @@ button {
     }
 
     .values-wrapper {
-        height: 60vw;
+        height: 80vw;
     }
 
     .values-group {
@@ -437,10 +437,8 @@ button {
     }
 
     .value-box i {
-
-        /* text-align: left; */
-        margin-left: 5vw;
-        margin-right: 10vw;
+        margin-left: 4vw;
+        margin-right: 12vw;
     }
 
     .view-gallery-wrapper {
