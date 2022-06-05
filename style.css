@@ -183,7 +183,8 @@ button {
     margin-bottom: 5vh;
 }
 
-.values-header, .reviews-header {
+.values-header,
+.reviews-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -215,7 +216,8 @@ button {
 }
 
 .view-gallery-wrapper {
-    background-color: #00003B;
+    box-shadow: 3px 3px 20px lightblue;
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vh;
@@ -225,6 +227,7 @@ button {
 }
 
 .view-gallery-wrapper img {
+    border-radius: 5px;
     height: 20vh;
     width: 100%;
     object-fit: fill;
@@ -244,7 +247,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:  rgb(8, 50, 120);
+    background-color: rgb(8, 50, 120);
     opacity: 0.8;
     color: white;
     font-size: 2vw;
@@ -289,7 +292,6 @@ button {
 .more-reviews {
     background-color: chocolate;
     border: 1px solid black;
-    ;
     height: 80%;
     width: 10%;
     border-radius: 30%;
@@ -425,7 +427,7 @@ button {
         width: 70vw;
         height: 80%;
     }
-    
+
     .value-box {
         flex-direction: row;
         justify-content: space-around;
@@ -437,7 +439,7 @@ button {
     .view-gallery-wrapper {
         /* height: 30vh; */
         border-radius: 20px;
-        width: 70vw; 
+        width: 70vw;
     }
 
     .view-gallery-wrapper img {
