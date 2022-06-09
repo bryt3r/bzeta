@@ -56,7 +56,8 @@ body {
     background-color: whitesmoke;
 }
 
-#menu-icon, .shop-link {
+#menu-icon,
+.shop-link {
     display: none;
 }
 
@@ -202,7 +203,8 @@ button {
 }
 
 .values-header,
-.reviews-header {
+.reviews-header,
+.items-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -249,7 +251,8 @@ button {
     border-radius: 5px;
     height: 20vh;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: center;
     opacity: 0.8;
 }
 
@@ -365,6 +368,56 @@ button {
 /* Helper classes */
 
 
+/* SHOP */
+.shop-items-wrapper {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.items-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 80vw;
+}
+
+.item-box {
+    justify-content: space-around;
+    background-color: #ccc;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+.item-title p {
+    text-align: center;
+}
+
+.item-title {
+    padding: 15px 5px;
+    width: 60%;
+}
+
+.item-image {
+    width: 40%;
+}
+
+.item-image img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* SHOP */
+
+
+
+
 @media only screen and (max-width: 768px) {
 
     .contactbar {
@@ -377,7 +430,8 @@ button {
         padding: 3px 10px;
     }
 
-    #menu-icon, .shop-link {
+    #menu-icon,
+    .shop-link {
         display: block;
         cursor: pointer;
     }
@@ -521,6 +575,37 @@ button {
         padding-bottom: 20rem;
         /* Footer height */
     }
+
+    /* SHOP */
+
+    .items-group {
+        width: 80vw;
+    }
+
+    .item-box {
+        flex-direction: column;
+    }
+
+    .item-title {
+        width: 100%;
+    }
+    
+    .item-image {
+        width: 100%;
+    }
+
+    .item-box p {
+        text-align: center;
+    }
+
+    .item-image img {
+        border-radius: 10px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* SHOP */
 
     #footer {
         height: 18rem;
