@@ -592,6 +592,7 @@ button {
     }
 
     .item-box {
+        border: none;
         background-color: #ccc;
         flex-direction: column;
     }
