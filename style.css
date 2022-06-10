@@ -205,7 +205,7 @@ button {
 
 .values-header,
 .reviews-header,
-.items-header {
+.items-header, .packages-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -370,14 +370,14 @@ button {
 
 
 /* SHOP */
-.shop-items-wrapper {
+.shop-items-wrapper, .package-items-wrapper {
     justify-content: space-around;
     align-items: center;
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
 
-.items-group {
+.items-group, .packages-group {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -387,7 +387,7 @@ button {
     width: 80vw;
 }
 
-.item-box {
+.item-box, .package-box {
     border-radius: 10px;
     justify-content: space-around;
     width: 100%;
@@ -399,7 +399,7 @@ button {
     text-align: center;
 }
 
-.item-title {
+.item-title, .package-title {
     justify-content: space-around;
     padding: 15px 5px;
     width: 60%;
@@ -413,11 +413,11 @@ button {
     font-size: 2vw;
 }
 
-.item-image {
+.item-image,.package-image {
     width: 40%;
 }
 
-.item-image img {
+.item-image img, .package-image img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 100%;
@@ -428,6 +428,16 @@ button {
 
 /* SHOP */
 
+/* SOLAR */
+.solar-intro {
+    width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.2vw;
+    line-height: 2;
+    
+}
+/* SOLAR */
 
 
 
@@ -631,6 +641,13 @@ button {
     }
 
     /* SHOP */
+
+    /* SOLAR */
+.solar-intro {
+    font-size: 2.3vw;
+    line-height: 1.7;
+}
+/* SOLAR */
 
     #footer {
         height: 18rem;
