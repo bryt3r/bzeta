@@ -62,13 +62,13 @@ body {
     display: none;
 }
 
-
 .bar-item {
     width: 25px;
     height: 2px;
     background-color: rgb(8, 8, 120);
     margin: 5px 0;
 }
+
 
 #nav-content {
     display: flex;
@@ -110,7 +110,7 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     /* width: 90vw; */
-    height: 60vh;
+    height: 40vw;
     background-color: lightslategray;
 }
 
@@ -130,6 +130,7 @@ li a:hover {
 .left-hero-back {
     opacity: 0.6;
     flex: 1;
+    height: 100%;
     background-color: navy;
 }
 
@@ -171,6 +172,7 @@ button {
 }
 
 .services-box {
+    cursor: pointer;
     font-size: 1.2vw;
     display: flex;
     flex-direction: column;
@@ -184,6 +186,11 @@ button {
     box-shadow: 3px 3px 20px lightblue;
     height: 85%;
     width: 20%;
+    transition: all .2s;
+}
+
+.services-box:hover {
+    transform: scale(1.1);
 }
 
 .services-box p {
@@ -205,7 +212,8 @@ button {
 
 .values-header,
 .reviews-header,
-.items-header, .packages-header {
+.items-header,
+.packages-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -370,14 +378,16 @@ button {
 
 
 /* SHOP */
-.shop-items-wrapper, .package-items-wrapper {
+.shop-items-wrapper,
+.package-items-wrapper {
     justify-content: space-around;
     align-items: center;
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
 
-.items-group, .packages-group {
+.items-group,
+.packages-group {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -387,7 +397,8 @@ button {
     width: 80vw;
 }
 
-.item-box, .package-box {
+.item-box,
+.package-box {
     border-radius: 10px;
     justify-content: space-around;
     width: 100%;
@@ -399,7 +410,8 @@ button {
     text-align: center;
 }
 
-.item-title, .package-title {
+.item-title,
+.package-title {
     justify-content: space-around;
     padding: 15px 5px;
     width: 60%;
@@ -413,11 +425,13 @@ button {
     font-size: 2vw;
 }
 
-.item-image,.package-image {
+.item-image,
+.package-image {
     width: 40%;
 }
 
-.item-image img, .package-image img {
+.item-image img,
+.package-image img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 100%;
@@ -435,8 +449,9 @@ button {
     margin-left: auto;
     font-size: 1.2vw;
     line-height: 2;
-    
+
 }
+
 /* SOLAR */
 
 
@@ -459,6 +474,7 @@ button {
         cursor: pointer;
     }
 
+
     .shop-link a {
         border-radius: 5px;
         color: white;
@@ -475,6 +491,7 @@ button {
 
     .mobile-nav {
         z-index: 9;
+        display: block;
         display: flex;
         flex-direction: column;
         background-color: whitesmoke;
@@ -485,7 +502,7 @@ button {
     }
 
     .hero-container {
-        height: 50vh;
+        height: 55vw;
     }
 
     .hero-back {
@@ -507,7 +524,7 @@ button {
         background-color: rgb(8, 50, 120);
         opacity: 0.8;
         left: 5%;
-        top: 35%;
+        top: 20%;
     }
 
     .hero-front p {
@@ -536,7 +553,7 @@ button {
 
     .services-box {
         font-size: 5vw;
-        margin: 3vh 0px;
+        margin: 5vw 0px;
         padding: 15px 15px;
         height: 70vw;
         width: 100%;
@@ -643,11 +660,12 @@ button {
     /* SHOP */
 
     /* SOLAR */
-.solar-intro {
-    font-size: 3.1vw;
-    line-height: 1.7;
-}
-/* SOLAR */
+    .solar-intro {
+        font-size: 3.1vw;
+        line-height: 1.7;
+    }
+
+    /* SOLAR */
 
     #footer {
         height: 18rem;
