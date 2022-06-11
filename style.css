@@ -677,8 +677,8 @@ button {
         color: white;
         background-color: rgb(8, 50, 120);
         opacity: 0.8;
-        left: 5%;
-        top: 30px;
+        left: 5vw;
+        top: 5vw;
     }
 
     .hero-front p {
