@@ -441,6 +441,76 @@ button {
     object-position: center;
 }
 
+.item-page-wrapper {
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vw auto;
+    width: 90vw;
+    height: 80vh;
+}
+
+.item-page-image-wrapper {
+    align-items: center;
+    width: 50%;
+}
+
+.item-image-container {
+    height: 80%;
+    width: 100%;
+}
+
+.item-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imageSlide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.activeSlide {
+    display: block;
+}
+
+.item-image-thumbnails {
+    margin-top: 5px;
+    justify-content: space-around;
+    height: 20%;
+    width: 70%;
+}
+
+.imageThumb {
+    border-radius: 5px;
+    width: 30%;
+    height: 90%;
+}
+
+.item-image-thumbnails img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.activeThumb {
+    border: 1px solid orangered;
+}
+
+.item-page-details-wrapper {
+    padding: 5vw 0;
+    justify-content: space-around;
+    width: 50%;
+    height: 90%;
+}
+
+.item-page-details-wrapper p {
+    text-align: center;
+}
+
 /* SHOP */
 
 /* SOLAR */
@@ -453,9 +523,7 @@ button {
 
 }
 
-.solar-intro ul {
-    
-}
+.solar-intro ul {}
 
 /* SOLAR */
 
@@ -493,7 +561,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vw;
-    
+
 }
 
 .article-box {
@@ -516,7 +584,7 @@ button {
     width: 30%;
 }
 
-.article-image img{
+.article-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -558,58 +626,56 @@ button {
 /* BLOG MOBILE */
 @media only screen and (max-width: 1023px) {
 
-     /* BLOG */
-.blog-nav {
-}
+    /* BLOG */
+    .blog-nav {}
 
-#blog-nav-content {}
+    #blog-nav-content {}
 
-.blog-nav-links {}
+    .blog-nav-links {}
 
-.articles-area-wrapper {
-}
+    .articles-area-wrapper {}
 
-.articles-search {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .articles-search {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.articles-wrapper {
-    flex-direction: column;
-    justify-content: space-around;
-    width: 95%;
-}
+    .articles-wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 95%;
+    }
 
-.articles-main-group {
-    width: 90%;
-}
+    .articles-main-group {
+        width: 90%;
+    }
 
-.article-box {
-    font-size: 3vw;
-    height: 60vw;
-    width: 100%;
-}
+    .article-box {
+        font-size: 3vw;
+        height: 60vw;
+        width: 100%;
+    }
 
-.articles-sidebar {
-    width: 90%;
-}
+    .articles-sidebar {
+        width: 90%;
+    }
 
-.sidebox {
+    .sidebox {
 
-    height: 30vw;
-}
+        height: 30vw;
+    }
 
-.blog-footer {
-    color: white;
-    background-color: tomato;
-}
+    .blog-footer {
+        color: white;
+        background-color: tomato;
+    }
 
-#blog-footer-content {}
+    #blog-footer-content {}
 
-.blog-footer-links {}
+    .blog-footer-links {}
 
-/* BLOG */
+    /* BLOG */
 
 }
 
@@ -816,6 +882,18 @@ button {
         object-position: center;
     }
 
+    .item-page-wrapper {
+        flex-direction: column;
+    }
+
+    .item-page-image-wrapper {
+        width: 100%;
+    }
+
+    .item-page-details-wrapper {
+        width: 100%;
+    }
+
     /* SHOP */
 
     /* SOLAR */
@@ -826,7 +904,7 @@ button {
 
     /* SOLAR */
 
-   
+
 
     #footer {
         height: 18rem;
