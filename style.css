@@ -655,7 +655,7 @@ button {
     }
 
     .hero-container {
-        height: 55vw;
+        height: 60vw;
     }
 
     .hero-back {
@@ -672,7 +672,8 @@ button {
     }
 
     .hero-front {
-        padding: 10px 50px;
+        padding: 10px 40px;
+        height: 80%;
         color: white;
         background-color: rgb(8, 50, 120);
         opacity: 0.8;
@@ -681,7 +682,7 @@ button {
     }
 
     .hero-front p {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     .services-wrapper {
