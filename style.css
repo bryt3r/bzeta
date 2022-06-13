@@ -397,8 +397,7 @@ button {
     margin-bottom: 10vw;
 }
 
-.items-group,
-.packages-group {
+.items-group {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -408,8 +407,7 @@ button {
     width: 60vw;
 }
 
-.item-box,
-.package-box {
+.item-box {
     cursor: pointer;
     align-items: center;
     padding: 2px 5px;
@@ -528,15 +526,37 @@ button {
 
 /* SOLAR */
 .solar-intro {
-    width: 85vw;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.2vw;
     line-height: 2;
-
 }
 
 .solar-intro ul {}
+
+.solar-packages-wrapper {
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: 5vw auto;
+}
+
+.solar-packages-group {
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.package-box {
+    cursor: pointer;
+    align-items: center;
+    padding: 2px 5px;
+    height: 35vw;
+    width: 100%;
+    margin-bottom: 3vw;
+    background-color: rgb(216, 235, 250);
+}
 
 /* SOLAR */
 
