@@ -218,7 +218,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10vh;
+    margin-bottom: 10px;
 }
 
 .guard-line {
@@ -379,11 +379,21 @@ button {
 
 
 /* SHOP */
+.shop-header {
+    margin-bottom: 50px;
+    background-color: lightskyblue;
+    text-align: center;
+    width: 60vw;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .shop-items-wrapper,
 .package-items-wrapper {
     justify-content: space-around;
     align-items: center;
-    margin-top: 10vw;
+    margin-top: 50px;
     margin-bottom: 10vw;
 }
 
@@ -395,21 +405,38 @@ button {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 80vw;
+    width: 60vw;
 }
 
 .item-box,
 .package-box {
-    border-radius: 10px;
-    justify-content: space-around;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 22vw;
     width: 100%;
     margin-bottom: 3vw;
     border: 1px solid lightskyblue;
 }
 
-.item-title p {
-    text-align: center;
+.item-box-body {
+    height: 80%;
 }
+
+.item-box-actions {
+    height: 20%;
+    /* align-items: center; */
+}
+
+.item-box-actions a{
+    /* font-size: 2vw; */
+    border: 1px solid lightskyblue;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
 
 .item-title,
 .package-title {
@@ -419,11 +446,11 @@ button {
 }
 
 .item-main-title {
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
 }
 
 .item-price {
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 
 .item-image,
@@ -434,7 +461,6 @@ button {
 .item-image img,
 .package-image img {
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -446,11 +472,10 @@ button {
     align-items: center;
     margin: 2vw auto;
     width: 90vw;
-    height: 80vh;
 }
 
 .item-page-image-wrapper {
-    align-items: center;
+    /* align-items: center; */
     width: 50%;
 }
 
@@ -486,10 +511,11 @@ button {
 .imageThumb {
     border-radius: 5px;
     width: 30%;
-    height: 90%;
+    height: 100%;
 }
 
 .item-image-thumbnails img {
+    border-radius: 5px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -497,7 +523,7 @@ button {
 }
 
 .activeThumb {
-    border: 1px solid orangered;
+    border: 1.5px solid orangered;
 }
 
 .item-page-details-wrapper {
@@ -849,39 +875,18 @@ button {
 
     .item-box {
         border: none;
-        background-color: #ccc;
-        flex-direction: column;
+        background-color: whitesmoke;
+        height: 26vw;
     }
 
-    .item-title {
-        width: 100%;
+    .item-box-actions {
     }
 
-    .item-main-title {
-        font-size: 4vw;
+    .item-box-actions a{
+       
     }
 
-    .item-price {
-        font-size: 3.5vw;
-    }
-
-    .item-image {
-        width: 100%;
-    }
-
-    .item-box p {
-        text-align: center;
-    }
-
-    .item-image img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0px;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
+   
     .item-page-wrapper {
         flex-direction: column;
     }
