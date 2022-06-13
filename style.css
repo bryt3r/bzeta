@@ -410,38 +410,21 @@ button {
 
 .item-box,
 .package-box {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    align-items: center;
+    padding: 2px 5px;
     height: 22vw;
     width: 100%;
     margin-bottom: 3vw;
     border: 1px solid lightskyblue;
 }
 
-.item-box-body {
-    height: 80%;
-}
-
-.item-box-actions {
-    height: 20%;
-    /* align-items: center; */
-}
-
-.item-box-actions a{
-    /* font-size: 2vw; */
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-}
-
 
 .item-title,
 .package-title {
     justify-content: space-around;
-    padding: 15px 5px;
+    padding: 0px 5px;
     width: 60%;
+    height: 100%;
 }
 
 .item-main-title {
@@ -459,9 +442,9 @@ button {
 
 .item-image img,
 .package-image img {
-    border-top-left-radius: 10px;
-    width: 100%;
-    height: 100%;
+    border-radius: 5px;
+    width: 90%;
+    height: 95%;
     object-fit: cover;
     object-position: center;
 }
@@ -875,7 +858,7 @@ button {
     .item-box {
         border: none;
         background-color: whitesmoke;
-        height: 40vw;
+        height: 30vw;
     }
 
     .item-box-actions {
