@@ -870,13 +870,13 @@ button {
     /* SHOP */
 
     .items-group {
-        width: 80vw;
+        width: 95vw;
     }
 
     .item-box {
         border: none;
         background-color: whitesmoke;
-        height: 26vw;
+        height: 32vw;
     }
 
     .item-box-actions {
