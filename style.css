@@ -410,6 +410,7 @@ button {
 
 .item-box,
 .package-box {
+    cursor: pointer;
     align-items: center;
     padding: 2px 5px;
     height: 22vw;
@@ -449,15 +450,14 @@ button {
     object-position: center;
 }
 
-.item-page-wrapper {
+.item-page-upper-wrapper {
     justify-content: space-around;
-    align-items: center;
+    
     margin: 2vw auto;
     width: 90vw;
 }
 
 .item-page-image-wrapper {
-    /* align-items: center; */
     width: 50%;
 }
 
@@ -509,15 +509,20 @@ button {
 }
 
 .item-page-details-wrapper {
-    padding: 5vw 0;
+    padding: 0 2vw ;
     justify-content: space-around;
     width: 50%;
-    height: 90%;
 }
 
-.item-page-details-wrapper p {
-    text-align: center;
+.item-page-mobile-order-button {
+   display: none;
 }
+.item-page-pc-order-button {
+    width: 100%;
+    font-size: 2.5vw;
+}
+
+
 
 /* SHOP */
 
@@ -869,7 +874,7 @@ button {
     }
 
    
-    .item-page-wrapper {
+    .item-page-upper-wrapper {
         flex-direction: column;
     }
 
@@ -880,6 +885,21 @@ button {
     .item-page-details-wrapper {
         width: 100%;
     }
+
+    .item-page-mobile-order-button {
+        display: block;
+        font-size: 4vw;
+        margin: 10px 2px;
+        width: 100%;
+    }
+    .item-page-pc-order-button {
+        display: none;
+    }
+
+    /* a.item-page-order-button {
+        width: 100%;
+        display: inline-block;
+    } */
 
     /* SHOP */
 

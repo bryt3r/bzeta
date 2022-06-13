@@ -50,7 +50,7 @@
             <!-- all other page content -->
 
             <!-- ITEM -->
-            <div class="item-page-wrapper flex-row">
+            <div class="item-page-upper-wrapper flex-row">
                 <div class="item-page-image-wrapper flex-col">
                     <div class="item-image-container">
                         <div class="imageSlide activeSlide">
@@ -79,44 +79,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="item-page-details-wrapper flex-col">
-                        <p class="item-main-title">HP ProBook 840 G1</p>
-                        <p> <i>intel core i5, 4GB RAM, 500GB HDD</i></p>
-                        <p class="item-price">&#8358;150,500</p>
-                        <p>
-                            <a href="https://wa.me/2348162596229">
-                                <button>
-                                    Place Order <i class="fa-brands fa-whatsapp "></i>
-                                </button>
-                            </a>
-                        </p>
-                    </div>
+                <!-- <a href="https://wa.me/2348162596229"> -->
+                <button class="item-page-mobile-order-button" onclick="location.href='https:\/\/wa.me/2348162596229';">
+                    Place Order <i class="fa-brands fa-whatsapp "></i>
+                </button>
+                <!-- </a> -->
 
+                <div class="item-page-details-wrapper flex-col">
+                    <p>Description</p>
+                    
+                   
+                    <p class="item-main-title">HP ProBook 840 G1</p>
+                    <p> <i>intel core i5, 4GB RAM, 500GB HDD</i></p>
+                    <p class="item-price">&#8358;150,500</p>
+                    <p>
+                        <button class="item-page-pc-order-button" onclick="location.href='https:\/\/wa.me/2348162596229';">
+                            Place Order <i class="fa-brands fa-whatsapp "></i>
+                        </button> </p>
                 </div>
 
             </div>
 
-
-            <!-- FOOTER -->
-            <footer id="footer">
-                <div id="footer-content">
-                    <ul id="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
-                    <ul id="footer-sm-links" class="flex-row">
-                        <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a></li>
-                        <li><a href="#twitter"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
-                        <li><a href="#instagram"><i class="fa-brands fa-instagram-square fa-2x"></i></a></li>
-                        <li><a href="#facebook"><i class="fa-brands fa-facebook-square fa-2x"></i></a></li>
-                    </ul>
-                </div>
-            </footer>
         </div>
 
-        <script src="script.js"></script>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div id="footer-content">
+                <ul id="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <ul id="footer-sm-links" class="flex-row">
+                    <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a></li>
+                    <li><a href="#twitter"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="#instagram"><i class="fa-brands fa-instagram-square fa-2x"></i></a></li>
+                    <li><a href="#facebook"><i class="fa-brands fa-facebook-square fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
