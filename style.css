@@ -449,7 +449,7 @@ button {
 
 .item-page-upper-wrapper {
     justify-content: space-around;
-    
+
     margin: 2vw auto;
     width: 90vw;
 }
@@ -506,14 +506,15 @@ button {
 }
 
 .item-page-details-wrapper {
-    padding: 0 2vw ;
+    padding: 0 2vw;
     justify-content: space-around;
     width: 50%;
 }
 
 .item-page-mobile-order-button {
-   display: none;
+    display: none;
 }
+
 .item-page-pc-order-button {
     width: 100%;
     font-size: 2.5vw;
@@ -549,22 +550,107 @@ button {
 
 .package-box {
     cursor: pointer;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
-    padding: 2px 3px;
-    height: 45vw;
-    width: 100%;
+    width: 31%;
+    height: 500px;
     margin-bottom: 3vw;
+}
+
+.package-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.package-card-front {
+    border-radius: 5px;
     background-color: rgb(216, 235, 250);
+    /* box-shadow: 0px 0px 10px purple; */
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-.package-image {
-    width: 40%;
+.package-card-back {
+    background-color: rgb(216, 235, 250);
+    transform: rotateY(180deg);
 }
 
-.package-info {
-    width: 60%;
+.package-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 25px;
+    width: 100%;
 }
+
+.package-body {
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.package-body ul {
+    justify-content: space-around;
+}
+
+.package-body li {
+    padding: 1vw;
+}
+
+.package-button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.purple {
+    color: white;
+    background-color: purple;
+}
+
+
+.green {
+    color: white;
+    background-color: seagreen;
+}
+
+
+.blue {
+    color: white;
+    background-color: blue;
+}
+
+
+#cardControl {
+    display: none;
+}
+
+.cardControlLabel {
+    width: 100%;
+    height: 100%;
+}
+
+#cardControl:checked+label>.package-card {
+    transform: rotateY(180deg);
+}
+
+/* .package-box:hover .package-card {
+    transform: rotateY(180deg);
+  } */
+
+.package-card-front,
+.package-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
 
 /* SOLAR */
 
@@ -894,14 +980,11 @@ button {
         height: 30vw;
     }
 
-    .item-box-actions {
-    }
+    .item-box-actions {}
 
-    .item-box-actions a{
-       
-    }
+    .item-box-actions a {}
 
-   
+
     .item-page-upper-wrapper {
         flex-direction: column;
     }
@@ -920,6 +1003,7 @@ button {
         margin: 10px 2px;
         width: 100%;
     }
+
     .item-page-pc-order-button {
         display: none;
     }
@@ -939,6 +1023,18 @@ button {
 
     .solar-packages-wrapper {
         width: 95vw;
+    }
+
+    .solar-packages-group {
+        flex-direction: column;
+    }
+
+    .package-box {
+        width: 60%;
+    }
+
+    .package-body li {
+        padding: 2vw;
     }
 
     /* SOLAR */
