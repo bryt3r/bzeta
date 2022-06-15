@@ -633,13 +633,13 @@ button {
     height: 100%;
 }
 
-#cardControl:checked+label>.package-card {
+/* #cardControl:checked+label>.package-card {
     transform: rotateY(180deg);
-}
+} */
 
-/* .package-box:hover .package-card {
+.flip-card {
     transform: rotateY(180deg);
-  } */
+  }
 
 .package-card-front,
 .package-card-back {
