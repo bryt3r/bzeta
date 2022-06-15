@@ -40,7 +40,6 @@ function flipCard() {
       cards[i].style.msTransform = "rotateY(" + degrees + "deg)";
       cards[i].style.OTransform = "rotateY(" + degrees + "deg)";
       cards[i].style.transform = "rotateY(" + degrees + "deg)";
-      console.log(`${degrees} -- ${i}`);
     });
   });
 

@@ -556,6 +556,7 @@ button {
     width: 31%;
     height: 500px;
     margin-bottom: 3vw;
+    background-color: transparent;
 }
 
 .package-card {
@@ -606,9 +607,22 @@ button {
     padding: 10px;
 }
 
+.flipcard-btn {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 .purple {
     color: white;
     background-color: purple;
+}
+
+.purple-border {
+    color: purple;
+    border: 1px solid purple;
 }
 
 
@@ -617,29 +631,22 @@ button {
     background-color: seagreen;
 }
 
+.green-border {
+    color: seagreen;
+    border: 1px solid seagreen;
+}
+
 
 .blue {
     color: white;
     background-color: blue;
 }
 
-
-#cardControl {
-    display: none;
+.blue-border {
+    color: blue;
+    border: 1px solid blue;
 }
 
-.cardControlLabel {
-    width: 100%;
-    height: 100%;
-}
-
-/* #cardControl:checked+label>.package-card {
-    transform: rotateY(180deg);
-} */
-
-.flip-card {
-    transform: rotateY(180deg);
-  }
 
 .package-card-front,
 .package-card-back {
