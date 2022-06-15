@@ -1040,9 +1040,8 @@ button {
     /* SHOP */
 
     /* SOLAR */
-    .solar-intro {
-        font-size: 3.1vw;
-        line-height: 1.7;
+    .solar-hero-container {
+        height: 55vw;
     }
 
     .solar-packages-wrapper {
