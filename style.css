@@ -22,7 +22,6 @@ body {
     font-size: 1em;
     background-color: rgb(8, 8, 120);
     color: white;
-    display: flex;
     justify-content: space-between;
     padding: 3px 10px;
 }
@@ -41,7 +40,6 @@ body {
     box-shadow: 0px 0px 20px #25D366;
     background-color: #25D366;
     opacity: 0.9;
-    /* background-color: rgb(8, 8, 120); */
     color: white;
     position: fixed;
     bottom: 30px;
@@ -72,15 +70,11 @@ body {
 
 
 #nav-content {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,7 +84,6 @@ body {
 li a,
 #navbar a {
     display: block;
-    /* color: rgb(8, 8, 120); */
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -108,15 +101,11 @@ li a:hover {
 
 .hero-container {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 90vw; */
     height: 40vw;
     background-color: lightslategray;
 }
 
 .hero-back {
-    display: flex;
     height: 100%;
     width: 100%;
 }
@@ -129,10 +118,10 @@ li a:hover {
 }
 
 .left-hero-back {
-    opacity: 0.6;
+    opacity: 0.7;
     flex: 1;
     height: 100%;
-    background-color: navy;
+    background-color: rgb(8, 8, 120);
 }
 
 .hero-front {
@@ -161,11 +150,8 @@ button {
 }
 
 .services-group {
-    display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin-left: auto;
-    margin-right: auto;
     height: 18vw;
     width: 80vw;
     position: relative;
@@ -175,8 +161,6 @@ button {
 .services-box {
     cursor: pointer;
     font-size: 1.2vw;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 20px 10px;
@@ -200,14 +184,10 @@ button {
 
 
 .values-wrapper {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 80vw;
     height: 22vw;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 5vh;
 }
 
@@ -215,7 +195,6 @@ button {
 .reviews-header,
 .items-header,
 .packages-header {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
@@ -229,8 +208,6 @@ button {
 }
 
 .values-group {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 90%;
     height: 70%;
@@ -240,17 +217,16 @@ button {
     border-radius: 5px;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     width: 20%;
     height: 80%;
     color: rgb(8, 8, 120);
-    background-color: #cadff4;
+    background-color: rgba(8, 8, 120,0.1);
 }
 
 .view-gallery-wrapper {
     box-shadow: 3px 3px 20px lightblue;
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10vh;
     height: 20vh;
     width: 55vw;
@@ -266,17 +242,9 @@ button {
     opacity: 0.8;
 }
 
-/* .view-gallery-image {
-    height: 100%;
-    width: 90%;
-    background-color: brown;
-} */
 
 .view-gallery-overlay {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(8, 50, 120);
@@ -293,29 +261,22 @@ button {
 
 
 .reviews-wrapper {
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 5vh;
     padding: 0px 30px;
-    /* background-color: blueviolet; */
     height: 30vh;
     width: 70vw;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 .reviews-group {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     height: 100%;
     width: 100%;
 }
 
 .review-box {
-    background-color: cornflowerblue;
+    background-color: rgba(8, 8, 120,0.3);
     border: 1px solid black;
     height: 90%;
     width: 20%;
@@ -341,10 +302,7 @@ button {
 
 #footer-content {
     color: white;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -354,14 +312,10 @@ button {
 
 #footer-links {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
 }
 
 #footer-sm-links {
     list-style-type: none;
-    /* display: flex;
-    flex-direction: row; */
 }
 
 /* Helper classes */
@@ -375,6 +329,11 @@ button {
     flex-direction: row;
 }
 
+.centerAlign {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Helper classes */
 
 
@@ -385,8 +344,6 @@ button {
     text-align: center;
     width: 60vw;
     padding: 20px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .shop-items-wrapper,
@@ -398,11 +355,9 @@ button {
 }
 
 .items-group {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     height: auto;
     width: 60vw;
 }
@@ -601,7 +556,7 @@ button {
 .package-header {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 25px;
+    padding: 20px 15px;
     width: 100%;
 }
 
@@ -626,8 +581,6 @@ button {
 
 .flipcard-btn {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 3px;
     border-radius: 5px;
 }
@@ -639,7 +592,7 @@ button {
 
 .purple-border {
     color: purple;
-    border: 1px solid purple;
+    background-color:  rgba(128, 0, 128, 0.1);
 }
 
 
@@ -650,7 +603,7 @@ button {
 
 .green-border {
     color: seagreen;
-    border: 1px solid seagreen;
+    background-color:  rgba(46, 139, 87, 0.1);
 }
 
 
@@ -661,7 +614,7 @@ button {
 
 .blue-border {
     color: blue;
-    border: 1px solid blue;
+    background-color: rgba(0,0,255,0.1);
 }
 
 
@@ -679,38 +632,61 @@ button {
 /* SOLAR */
 
 /* BLOG */
-.blog-nav {
+.blog-nav{
+    position: sticky;
+    top: 55px;
+    z-index: 9;
+}
+
+.blog-nav, .blog-footer {
     color: white;
-    background-color: tomato;
+    background-color: rgb(8, 50, 120);
+}
+
+.blog-nav ul, .blog-footer ul {
+    list-style-type: none
+}
+
+.blog-nav a, .blog-footer a {
+    color: white;
 }
 
 #blog-nav-content {}
 
-.blog-nav-links {}
+.blog-nav-links, .blog-footer-links {
+    justify-content: center;
+}
 
 .articles-area-wrapper {
-    background-color: #ccc;
-    width: 95vw;
-    margin: 3vw auto;
+    background-color: rgba(0,0,255,0.1);
+    /* width: 95vw; */
+    margin: 0 auto;
     justify-content: space-around;
 }
 
 .articles-search {
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin-top: 2vw;
+}
+
+.articles-search input{
+
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
 }
 
 .articles-wrapper {
     justify-content: space-around;
+    padding: 2vw;
     width: 95%;
-    margin: 5vw auto;
+    margin: 1vw auto;
 }
 
 .articles-main-group {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 5vw;
 
 }
@@ -722,8 +698,6 @@ button {
     justify-content: space-around;
     width: 80%;
     height: 25vw;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .article-body {
@@ -748,9 +722,6 @@ button {
 
 .articles-sidebar {
     width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .sidebox {
@@ -761,10 +732,6 @@ button {
     margin: 10px 2px;
 }
 
-.blog-footer {
-    color: white;
-    background-color: tomato;
-}
 
 #blog-footer-content {}
 
@@ -788,8 +755,6 @@ button {
 
     .articles-search {
         width: 70%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .articles-wrapper {
@@ -815,11 +780,6 @@ button {
     .sidebox {
 
         height: 30vw;
-    }
-
-    .blog-footer {
-        color: white;
-        background-color: tomato;
     }
 
     #blog-footer-content {}
@@ -852,8 +812,8 @@ button {
 
     .shop-link a {
         border-radius: 5px;
-        color: white;
-        background-color: rgb(8, 8, 120);
+        color: rgb(8, 8, 120,);
+        background-color: rgba(8, 8, 120,0.1);
     }
 
     .nav-links {
@@ -981,7 +941,7 @@ button {
 
     .review-box {
         flex-shrink: 0;
-        background-color: cornflowerblue;
+        background-color: rgba(8, 8, 120,0.1);
         border: 1px solid black;
         height: 80%;
         width: 100%;
@@ -1032,10 +992,6 @@ button {
         display: none;
     }
 
-    /* a.item-page-order-button {
-        width: 100%;
-        display: inline-block;
-    } */
 
     /* SHOP */
 
@@ -1070,7 +1026,6 @@ button {
 
 
     #footer-links {
-        display: flex;
         flex-direction: column;
     }
 

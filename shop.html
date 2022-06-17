@@ -15,7 +15,7 @@
 
 <body>
     <div id="page-container">
-        <div class="contactbar">
+        <div class="contactbar flex-row">
             <ul>
                 <li>+2341234567893</li>
                 |
@@ -26,10 +26,10 @@
             </ul>
         </div>
         <nav id="navbar">
-            <div id="nav-content">
+            <div id="nav-content" class="flex-row">
                 <a href="./index.html">Beta Technicians</a>
                 <div class="shop-link"><a href="#shop">Shop</a></div>
-                <ul class="nav-links">
+                <ul class="nav-links flex-row">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./index.html#services">Services</a></li>
                     <li><a href="./shop.html">Shop</a></li>
@@ -48,10 +48,10 @@
         </div>
         <div id="main">
             <!-- all other page content -->
-            <div class="shop-header">
+            <div class="shop-header centerAlign">
                 Beta - SHOP <i class="fa-solid fa-cart-shopping fa-3x"></i>
             </div>
-            <div class="items-header">
+            <div class="items-header flex-row">
                 <div class="guard-line"></div>
                 <p>For Sale</p>
                 <div class="guard-line"></div>
@@ -59,7 +59,7 @@
             <!-- ITEMS -->
             <div class="shop-items-wrapper flex-col">
 
-                <div class="items-group flex-col">
+                <div class="items-group centerAlign flex-col">
 
                     <div class="item-box flex-row" onclick="location.href='./item_page.html';">
                         <div class="item-image">
@@ -137,8 +137,8 @@
 
             <!-- FOOTER -->
             <footer id="footer">
-                <div id="footer-content">
-                    <ul id="footer-links">
+                <div id="footer-content" class="flex-col">
+                    <ul id="footer-links" class="flex-row">
                         <li><a href="#home">Home</a></li>
                         <li><a href="services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>

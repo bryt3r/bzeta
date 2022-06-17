@@ -15,7 +15,7 @@
 
 <body>
     <div id="page-container">
-        <div class="contactbar">
+        <div class="contactbar flex-row">
             <ul>
                 <li>+2341234567893</li>
                 |
@@ -26,10 +26,10 @@
             </ul>
         </div>
         <nav id="navbar">
-            <div id="nav-content">
+            <div id="nav-content" class="flex-row">
                 <a href="./">Beta Technicians</a>
                 <div class="shop-link"><a href="./shop.html">Shop</a></div>
-                <ul class="nav-links">
+                <ul class="nav-links flex-row">
                     <li><a href="#home">Home</a></li>
                     <li><a href="./index.html#services">Services</a></li>
                     <li><a href="./shop.html">Shop</a></li>
@@ -49,8 +49,8 @@
         </div>
         <div id="main">
             <!-- all other page content -->
-            <div class="hero-container">
-                <div class="hero-back">
+            <div class="hero-container centerAlign">
+                <div class="hero-back flex-row">
                     <div class="left-hero-back"></div>
                     <img src="assets/images/tch.jpg" alt="">
                 </div>
@@ -68,23 +68,23 @@
                     <p>Our Services</p>
                     <div class="guard-line"></div>
                 </div>
-                <div class="services-group">
+                <div class="services-group centerAlign flex-row">
 
-                        <div onclick="location.href='./solar.html';" class="services-box">
+                        <div onclick="location.href='./solar.html';" class="services-box flex-col">
                             <div class="feature-icon">
                                 <i class="fa-solid fa-charging-station fa-2x"></i>
                             </div>
                             <p>INVERTER | SOLAR INSTALLATIONS</p>
                         </div>
 
-                    <div class="services-box">
+                    <div class="services-box flex-col">
                         <div class="feature-icon">
                             <i class="fa-solid fa-network-wired fa-2x"></i>
                         </div>
                         <p>LAN | COMPUTER NETWORKING</p>
                     </div>
 
-                    <div onclick="location.href='./shop.html';" class="services-box">
+                    <div onclick="location.href='./shop.html';" class="services-box flex-col">
                         <div class="feature-icon">
                             <i class="fa-solid fa-money-check-dollar fa-2x"></i>
                         </div>
@@ -94,7 +94,7 @@
                     </div>
                    
 
-                    <div class="services-box">
+                    <div class="services-box flex-col">
                         <div class="feature-icon">
                             <i class="fa-solid fa-video fa-2x"></i>
                         </div>
@@ -105,13 +105,13 @@
             </div>
             <!-- VALUES -->
 
-            <div class="values-wrapper">
-                <div class="values-header">
+            <div class="values-wrapper centerAlign flex-col">
+                <div class="values-header flex-row">
                     <div class="guard-line"></div>
                     <p>Our Core Values</p>
                     <div class="guard-line"></div>
                 </div>
-                <div class="values-group">
+                <div class="values-group flex-row">
                     <div class="value-box flex-col">
                         <i class="fa-solid fa-business-time fa-2x"></i>
                         <p>Prompt</p>
@@ -129,11 +129,11 @@
 
             <!-- GALLERY -->
 
-            <div class="view-gallery-wrapper">
+            <div class="view-gallery-wrapper centerAlign">
                 <div class="view-gallery-image">
                     <img src="assets/images/gallery_grid.jpg" alt="">
                 </div>
-                <div class="view-gallery-overlay">
+                <div class="view-gallery-overlay centerAlign flex-row">
                     <div class="guard-line"></div>
                     <p>View Our Gallery</p>
                     <div class="guard-line"></div>
@@ -142,13 +142,13 @@
             </div>
 
             <!-- REVIEWS -->
-            <!-- <div class="reviews-wrapper">
-                <div class="reviews-header">
+            <!-- <div class="reviews-wrapper centerAlign flex-col">
+                <div class="reviews-header flex-row">
                     <div class="guard-line"></div>
                     <p>Feedback</p>
                     <div class="guard-line"></div>
                 </div>
-                <div class="reviews-group">
+                <div class="reviews-group flex-row">
                     <div class="review-box">REVIEW</div>
                     <div class="review-box">REVIEW</div>
                     <div class="review-box">REVIEW</div>
@@ -159,8 +159,8 @@
 
         <!-- FOOTER -->
         <footer id="footer">
-            <div id="footer-content">
-                <ul id="footer-links">
+            <div id="footer-content" class="flex-col">
+                <ul id="footer-links" class="flex-row">
                     <li><a href="#home">Home</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
