@@ -59,7 +59,7 @@ body {
 .brand-logo {
     height: 50%;
     color: rgb(8, 8, 120);
-    background-color: rgba(8, 8, 120,0.1);
+    /* background-color: rgba(8, 8, 120,0.1); */
 }
 
 
