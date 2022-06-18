@@ -20,7 +20,7 @@ body {
 
 .contactbar {
     font-size: 1em;
-    background-color: rgb(8, 8, 120);
+    background-color: rgb(0, 0, 100);
     color: white;
     justify-content: space-between;
     padding: 3px 10px;
@@ -52,14 +52,14 @@ body {
     top: 0px;
     z-index: 9;
     padding: 3px 55px;
-    color: rgb(8, 8, 120);
+    color: rgb(0, 0, 100);
     background-color: whitesmoke;
 }
 
 .brand-logo {
     height: 50%;
-    color: rgb(8, 8, 120);
-    /* background-color: rgba(8, 8, 120,0.1); */
+    color: rgb(120, 8, 79);
+    /* background-color: rgba(0, 0, 100,0.1); */
 }
 
 
@@ -80,7 +80,7 @@ body {
 .bar-item {
     width: 25px;
     height: 2px;
-    background-color: rgb(8, 8, 120);
+    background-color: rgb(0, 0, 100);
     margin: 5px 0;
 }
 
@@ -111,7 +111,7 @@ li a,
 
 li a:hover {
     color: white;
-    background-color: rgb(8, 8, 120);
+    background-color: rgb(0, 0, 100);
 }
 
 #main {
@@ -141,7 +141,7 @@ li a:hover {
     opacity: 0.7;
     flex: 1;
     height: 100%;
-    background-color: rgb(8, 8, 120);
+    background-color: rgb(0, 0, 100);
 }
 
 .hero-front {
@@ -184,7 +184,7 @@ button {
     justify-content: space-around;
     align-items: center;
     padding: 20px 10px;
-    color: rgb(8, 8, 120);
+    color: rgb(0, 0, 100);
     background-color: lightskyblue;
     border: 1px solid lightblue;
     border-radius: 5px;
@@ -224,7 +224,7 @@ button {
     width: 10vw;
     margin: 0px 8px;
     height: 0.2vh;
-    background-color: rgb(8, 8, 120);
+    background-color: rgb(0, 0, 100);
 }
 
 .values-group {
@@ -240,8 +240,8 @@ button {
     text-align: center;
     width: 20%;
     height: 80%;
-    color: rgb(8, 8, 120);
-    background-color: rgba(8, 8, 120,0.1);
+    color: rgb(0, 0, 100);
+    background-color: rgba(0, 0, 100,0.1);
 }
 
 .view-gallery-wrapper {
@@ -267,7 +267,7 @@ button {
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(8, 50, 120);
+    background-color: rgb(0, 0, 100);
     opacity: 0.8;
     color: white;
     font-size: 2vw;
@@ -296,7 +296,7 @@ button {
 }
 
 .review-box {
-    background-color: rgba(8, 8, 120,0.3);
+    background-color: rgba(0, 0, 100,0.3);
     border: 1px solid black;
     height: 90%;
     width: 20%;
@@ -524,7 +524,7 @@ button {
     height: 80%;
     width: 100%;
     color: white;
-    background-color: rgb(8, 50, 120);
+    background-color: rgb(0, 0, 100);
     opacity: 0.7;
 }
 
@@ -660,7 +660,7 @@ button {
 
 .blog-nav, .blog-footer {
     color: white;
-    background-color: rgb(8, 50, 120);
+    background-color: rgb(0, 0, 100);
 }
 
 .blog-nav ul, .blog-footer ul {
@@ -832,8 +832,8 @@ button {
 
     .shop-link a {
         border-radius: 5px;
-        color: rgb(8, 8, 120,);
-        background-color: rgba(8, 8, 120,0.1);
+        color: rgb(0, 0, 100,);
+        background-color: rgba(0, 0, 100,0.1);
     }
 
     .nav-links {
@@ -877,8 +877,8 @@ button {
         padding: 10px 40px;
         height: 80%;
         color: white;
-        background-color: rgb(8, 50, 120);
-        opacity: 0.8;
+        background-color: rgba(0, 0, 100,0.6);
+        /* opacity: 0.8; */
         left: 5vw;
         top: 5vw;
     }
@@ -961,7 +961,7 @@ button {
 
     .review-box {
         flex-shrink: 0;
-        background-color: rgba(8, 8, 120,0.1);
+        background-color: rgba(0, 0, 100,0.1);
         border: 1px solid black;
         height: 80%;
         width: 100%;
