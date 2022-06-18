@@ -57,17 +57,17 @@ body {
 }
 
 .brand-logo {
-    height: 80%;
+    height: 100%;
     color: rgb(8, 8, 120);
     /* background-color: rgba(8, 8, 120,0.1); */
 }
 
 .brand-logo img {
-    height: 50%;
-    width: 180px;
+    height: 100%;
+    width: 90px;
     color: #25D366;
-    /* object-fit: cover;
-    object-position: center; */
+    object-fit: cover;
+    object-position: center;
 }
 
 #menu-icon,
