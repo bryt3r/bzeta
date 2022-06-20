@@ -413,8 +413,7 @@ button {
     width: 40%;
 }
 
-.item-image img,
-.package-image img {
+.item-image img {
     border-radius: 5px;
     width: 90%;
     height: 95%;
@@ -580,9 +579,23 @@ button {
     width: 100%;
 }
 
+.package-image {
+    /* background-color: #ccc; */
+    width: 95%;
+    height: 40%;
+}
+
+.package-image img {
+    width: 100%;
+    height: 95%;
+    object-fit: contain;
+    object-position: center;
+}
+
 .package-body {
     padding: 20px 15px;
     width: 100%;
+    
 }
 
 .package-body ul {
@@ -878,7 +891,6 @@ button {
         height: 80%;
         color: white;
         background-color: rgba(0, 0, 100,0.6);
-        /* opacity: 0.8; */
         left: 5vw;
         top: 5vw;
     }
