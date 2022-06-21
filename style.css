@@ -504,28 +504,52 @@ button {
     height: 35vw;
 }
 
-.solar-hero-back {
+.solar_hero_back {
+    /* display: none;  */
     height: 100%;
     width: 100%;
 }
 
-.solar-hero-back img {
+.solar_hero_slides  {
     height: 100%;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.6;
+    flex: 2;
 }
 
-.solar-hero-front {
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.solar_hero_slides img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    opacity: 0.9;
+}
+
+/* .solar-hero-overlay {
     position: absolute;
-    padding: 10px 20px;
-    top: 4vw;
-    height: 80%;
+    bottom: 4vw;
+    height: 40%;
     width: 100%;
     color: white;
     background-color: rgb(0, 0, 100);
-    opacity: 0.7;
-}
+    opacity: 0.4;
+} */
+
+/* .solar-hero-text {
+    position: absolute;
+    padding: 5px 20px;
+    color: white;
+    bottom: 4vw;
+} */
 
 .solar-packages-wrapper {
     justify-content: space-around;
@@ -1029,6 +1053,10 @@ button {
     /* SOLAR */
     .solar-hero-container {
         height: 55vw;
+    }
+
+    .solar_hero_slides {
+        flex: 1;
     }
 
     .solar-packages-wrapper {

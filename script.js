@@ -6,6 +6,25 @@ menu.addEventListener('click', () => {
 });
 
 
+// Solar Hero image slide
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("solar_hero_back");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+// Solar Hero image slide
+
+
+// Product image slideshow
 function showSlide(n) {
   let i;
   let slides = document.getElementsByClassName("imageSlide");
@@ -19,6 +38,7 @@ function showSlide(n) {
   slides[n - 1].style.display = "block";
   thumbs[n - 1].className += " activeThumb";
 }
+// Product image slideshow
 
 
 
