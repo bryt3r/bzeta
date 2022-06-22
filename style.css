@@ -133,7 +133,7 @@ li a:hover {
 .hero_back img {
     height: 100%;
     object-fit: cover;
-    opacity: 0.4;
+    opacity: 0.5;
     flex: 2;
 }
 
