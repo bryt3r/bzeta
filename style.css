@@ -1065,7 +1065,8 @@ button {
         color: white;
         background-color: rgba(0, 0, 100,0.4);
         left: 0;
-        top: 80%;
+        bottom: 0;
+        top: unset;
     }
 
     .solar_packages_wrapper {
