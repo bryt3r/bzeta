@@ -144,7 +144,7 @@ li a:hover {
     background-color: rgb(0, 0, 100);
 }
 
-.hero_front, .solar_hero_front {
+.hero_front {
     padding: 10px 50px;
     color: white;
     position: absolute;
@@ -241,7 +241,7 @@ button {
     width: 20%;
     height: 80%;
     color: rgb(0, 0, 100);
-    background-color: rgba(0, 0, 100,0.1);
+    background-color: rgba(0, 0, 100, 0.1);
 }
 
 .view_gallery_wrapper {
@@ -296,7 +296,7 @@ button {
 }
 
 .review_box {
-    background-color: rgba(0, 0, 100,0.3);
+    background-color: rgba(0, 0, 100, 0.3);
     border: 1px solid black;
     height: 90%;
     width: 20%;
@@ -401,13 +401,6 @@ button {
     height: 100%;
 }
 
-.item_main_title {
-    /* font-size: 2.5vw; */
-}
-
-.item_price {
-    /* font-size: 2vw; */
-}
 
 .item_image {
     width: 40%;
@@ -503,13 +496,22 @@ button {
     height: 35vw;
 }
 
+.solar_hero_front {
+    padding: 10px 0px;
+    color: white;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    font-size: 3vw;
+}
+
 .solar_hero_back {
     /* display: none;  */
     height: 100%;
     width: 100%;
 }
 
-.solar_hero_slides  {
+.solar_hero_slides {
     height: 100%;
     flex: 2;
 }
@@ -519,17 +521,22 @@ button {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 .solar_hero_slides img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     opacity: 0.9;
 }
 
@@ -617,7 +624,7 @@ button {
 .package_body {
     padding: 20px 15px;
     width: 100%;
-    
+
 }
 
 .package_body ul {
@@ -647,7 +654,7 @@ button {
 
 .purple_border {
     color: purple;
-    background-color:  rgba(128, 0, 128, 0.1);
+    background-color: rgba(128, 0, 128, 0.1);
 }
 
 
@@ -658,7 +665,7 @@ button {
 
 .green_border {
     color: seagreen;
-    background-color:  rgba(46, 139, 87, 0.1);
+    background-color: rgba(46, 139, 87, 0.1);
 }
 
 
@@ -669,7 +676,7 @@ button {
 
 .blue_border {
     color: blue;
-    background-color: rgba(0,0,255,0.1);
+    background-color: rgba(0, 0, 255, 0.1);
 }
 
 
@@ -687,33 +694,36 @@ button {
 /* SOLAR */
 
 /* BLOG */
-.blog_nav{
+.blog_nav {
     position: sticky;
     top: 55px;
     z-index: 8;
 }
 
-.blog_nav, .blog_footer {
+.blog_nav,
+.blog_footer {
     color: white;
     background-color: rgb(0, 0, 100);
 }
 
-.blog_nav ul, .blog_footer ul {
+.blog_nav ul,
+.blog_footer ul {
     list-style-type: none
 }
 
-.blog_nav a, .blog_footer a {
+.blog_nav a,
+.blog_footer a {
     color: white;
 }
 
-#blog_nav_content {}
 
-.blog_nav_links, .blog_footer_links {
+.blog_nav_links,
+.blog_footer_links {
     justify-content: center;
 }
 
 .articles_area_wrapper {
-    background-color: rgba(0,0,255,0.1);
+    background-color: rgba(0, 0, 255, 0.1);
     /* width: 95vw; */
     margin: 0 auto;
     justify-content: space-around;
@@ -727,7 +737,7 @@ button {
     margin-top: 2vw;
 }
 
-.articles_search input{
+.articles_search input {
 
     width: 60%;
     margin-right: 10px;
@@ -788,10 +798,6 @@ button {
 }
 
 
-#blog_footer_content {}
-
-.blog_footer_links {}
-
 /* BLOG */
 
 
@@ -800,13 +806,6 @@ button {
 @media only screen and (max-width: 1023px) {
 
     /* BLOG */
-    .blog_nav {}
-
-    #blog_nav_content {}
-
-    .blog_nav_links {}
-
-    .articles_area_wrapper {}
 
     .articles_search {
         width: 70%;
@@ -833,13 +832,8 @@ button {
     }
 
     .sidebox {
-
         height: 30vw;
     }
-
-    #blog_footer_content {}
-
-    .blog_footer_links {}
 
     /* BLOG */
 
@@ -867,8 +861,8 @@ button {
 
     .shop_link a {
         border-radius: 5px;
-        color: rgb(0, 0, 100,);
-        background-color: rgba(0, 0, 100,0.1);
+        color: rgb(0, 0, 100, );
+        background-color: rgba(0, 0, 100, 0.1);
     }
 
     .nav_links {
@@ -995,7 +989,7 @@ button {
 
     .review_box {
         flex-shrink: 0;
-        background-color: rgba(0, 0, 100,0.1);
+        background-color: rgba(0, 0, 100, 0.1);
         border: 1px solid black;
         height: 80%;
         width: 100%;
@@ -1017,10 +1011,6 @@ button {
         background-color: whitesmoke;
         height: 30vw;
     }
-
-    .item_box-actions {}
-
-    .item_box-actions a {}
 
 
     .item_page_upper_wrapper {
@@ -1050,9 +1040,6 @@ button {
     /* SHOP */
 
     /* SOLAR */
-    /* .solar_hero_container {
-        height: 55vw;
-    } */
 
     .solar_hero_slides {
         flex: 1;
@@ -1063,7 +1050,7 @@ button {
         min-height: 15%;
         width: 80%;
         color: white;
-        background-color: rgba(0, 0, 100,0.4);
+        background-color: rgba(0, 0, 100, 0.4);
         left: 0;
         bottom: 0;
         top: unset;
