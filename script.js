@@ -1,8 +1,8 @@
 //menu hider
-const menu = document.querySelector('#menu-icon');
-const navLinks = document.querySelector('.nav-links');
+const menu = document.querySelector('#menu_icon');
+const navLinks = document.querySelector('.nav_links');
 menu.addEventListener('click', () => {
-  navLinks.classList.toggle('mobile-nav');
+  navLinks.classList.toggle('mobile_nav');
 });
 
 
@@ -44,8 +44,8 @@ function showSlide(n) {
 
 function flipCard() {
   let i;
-  let boxes = document.querySelectorAll(".package-box");
-  let cards = document.querySelectorAll(".package-card");
+  let boxes = document.querySelectorAll(".package_box");
+  let cards = document.querySelectorAll(".package_card");
 
   boxes.forEach((box, i) => {
     var degrees = 0;

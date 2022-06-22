@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="font_awesome/css/all.min.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="font_awesome/css/all.min.css">
     <title>ITEM</title>
 </head>
 
 <body>
-    <div id="page-container">
-        <div class="contactbar flex-row">
+    <div id="page_container">
+        <div class="contactbar flex_row">
             <ul>
                 <li>+2341234567893</li>
                 |
@@ -26,36 +25,37 @@
             </ul>
         </div>
         <nav id="navbar">
-            <div id="nav-content" class="flex-row">
-                <!-- <a href="./index.html">Beta Technicians</a> -->
-                <div id="brand-logo" class="brand-logo">
+            <div id="nav_content" class="flex_row">
+                <!-- <a href="./">Beta Technicians</a> -->
+                <div id="brand_logo" class="brand_logo">
                     <a href="./"><img style="color:red; fill:darkmagenta" src="beta_logo_blue.svg" alt=""></a>
                 </div>
-                <div class="shop-link"><a href="#shop">Shop</a></div>
-                <ul class="nav-links flex-row">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#shop">Shop</a></li>
+                <div class="shop_link"><a href="./shop.html">Shop</a></div>
+                <ul class="nav_links flex_row">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="./index.html#services">Services</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
-                <div id="menu-icon">
-                    <div class="bar-item"></div>
-                    <div class="bar-item"></div>
-                    <div class="bar-item"></div>
+                <div id="menu_icon">
+                    <div class="bar_item"></div>
+                    <div class="bar_item"></div>
+                    <div class="bar_item"></div>
                 </div>
             </div>
         </nav>
-        <div class="floating-icon">
+        <div class="floating_icon">
             <a href="https://wa.me/2348162596229"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
         </div>
         <div id="main">
-            <!-- all other page content -->
+            <!-- all other page content  -->
 
-            <!-- ITEM -->
-            <div class="item-page-upper-wrapper flex-row">
-                <div class="item-page-image-wrapper flex-col">
-                    <div class="item-image-container">
+            <!-- ITEM  -->
+            <div class="item_page_upper_wrapper flex_row">
+                <div class="item_page_image_wrapper flex_col">
+                    <div class="item_image_container">
                         <div class="imageSlide activeSlide">
                             <img src="item1.jpeg">
                         </div>
@@ -68,7 +68,7 @@
                             <img src="item3.jpeg">
                         </div>
                     </div>
-                    <div class="item-image-thumbnails flex-row">
+                    <div class="item_image_thumbnails flex_row">
                         <div onclick="showSlide(1)" class="imageThumb activeThumb">
                             <img src="item1.jpeg">
                         </div>
@@ -82,21 +82,21 @@
                         </div>
                     </div>
                 </div>
-                <!-- <a href="https://wa.me/2348162596229"> -->
-                <button class="item-page-mobile-order-button" onclick="location.href='https:\/\/wa.me/2348162596229';">
+                 <!-- <a href="https://wa.me/2348162596229">  -->
+                <button class="item_page_mobile_order_button" onclick="location.href='https:\/\/wa.me/2348162596229';">
                     Place Order <i class="fa-brands fa-whatsapp "></i>
                 </button>
-                <!-- </a> -->
+                 <!-- </a> -->
 
-                <div class="item-page-details-wrapper flex-col">
+                <div class="item_page_details_wrapper flex_col">
                     <p>Description</p>
                     
                    
-                    <p class="item-main-title">HP ProBook 840 G1</p>
+                    <p class="item_main_title">HP ProBook 840 G1</p>
                     <p> <i>intel core i5, 4GB RAM, 500GB HDD</i></p>
-                    <p class="item-price">&#8358;150,500</p>
+                    <p class="item_price">&#8358;150,500</p>
                     <p>
-                        <button class="item-page-pc-order-button" onclick="location.href='https:\/\/wa.me/2348162596229';">
+                        <button class="item_page_pc_order_button" onclick="location.href='https:\/\/wa.me/2348162596229';">
                             Place Order <i class="fa-brands fa-whatsapp "></i>
                         </button> </p>
                 </div>
@@ -106,16 +106,16 @@
         </div>
 
 
-        <!-- FOOTER -->
+       <!-- FOOTER -->
         <footer id="footer">
-            <div id="footer-content" class="flex-col">
-                <ul id="footer-links" class="flex-row">
+            <div id="footer_content" class="flex_col">
+                <ul id="footer_links" class="flex_row">
                     <li><a href="#home">Home</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
-                <ul id="footer-sm-links" class="flex-row">
+                <ul id="footer_sm_links" class="flex_row">
                     <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a></li>
                     <li><a href="#twitter"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
                     <li><a href="#instagram"><i class="fa-brands fa-instagram-square fa-2x"></i></a></li>
