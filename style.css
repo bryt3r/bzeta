@@ -875,11 +875,15 @@ button {
         display: flex;
         flex-direction: column;
         background-color: whitesmoke;
-        padding: 0px 35px;
+        padding-right: 55px;
         position: absolute;
         top: 50px;
         right: -50px;
     }
+
+    /* .mobile_nav li {
+        text-align: left;
+    } */
 
     .hero_container {
         height: 70vw;
