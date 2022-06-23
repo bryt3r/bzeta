@@ -501,7 +501,7 @@ button {
     height: 35vw;
 }
 
-.solar_hero_front {
+.solar_hero_front, .network_hero_front {
     padding: 10px 5px;
     color: white;
     background-color: rgba(0, 0, 100, 0.4);
@@ -511,13 +511,13 @@ button {
     font-size: 3vw;
 }
 
-.solar_hero_back {
+.slide_container {
     /* display: none;  */
     height: 100%;
     width: 100%;
 }
 
-.solar_hero_slides {
+.hero_slides {
     height: 100%;
     flex: 2;
 }
@@ -539,7 +539,7 @@ button {
     }
 }
 
-.solar_hero_slides img {
+.hero_slides img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -554,7 +554,7 @@ button {
     margin: 3vw auto;
 }
 
-.solar_intro_text {
+.solar_intro_text, .network_intro {
     text-align: center;
     margin: 3vw auto;
 }
@@ -571,7 +571,7 @@ button {
     justify-content: space-around;
     align-items: center;
     width: 31%;
-    height: 600px;
+    height: 655px;
     margin-bottom: 3vw;
     background-color: transparent;
 }
@@ -1030,11 +1030,11 @@ button {
 
     /* SOLAR */
 
-    .solar_hero_slides {
+    .hero_slides {
         flex: 1;
     }
 
-    .solar_hero_front {
+    .solar_hero_front, .network_hero_front {
         font-size: 4vw;
         padding: 10px 40px;
         min-height: 15%;

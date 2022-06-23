@@ -12,7 +12,7 @@ showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("solar_hero_back");
+  let slides = document.getElementsByClassName("slide_container");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
