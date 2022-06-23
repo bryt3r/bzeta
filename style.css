@@ -941,9 +941,9 @@ button {
     }
 
     .values_wrapper {
-        margin-top: 10vw;
-        margin-bottom: 15vw;
-        height: 80vw;
+        margin-top: 15vw;
+        margin-bottom: 20vw;
+        /* height: 80vw; */
     }
 
     .values_group {
@@ -955,7 +955,7 @@ button {
 
     .value_box {
         padding: 15px 25px;
-        width: 80%;
+        width: 100%;
         margin-bottom: 10vw;
     }
 
