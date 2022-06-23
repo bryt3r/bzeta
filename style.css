@@ -502,8 +502,9 @@ button {
 }
 
 .solar_hero_front {
-    padding: 10px 0px;
+    padding: 10px 5px;
     color: white;
+    background-color: rgba(0, 0, 100, 0.4);
     position: absolute;
     left: 2%;
     top: 35%;
@@ -1024,6 +1025,7 @@ button {
     }
 
     .solar_hero_front {
+        font-size: 4vw;
         padding: 10px 40px;
         min-height: 15%;
         width: 80%;
