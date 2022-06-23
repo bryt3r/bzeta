@@ -554,6 +554,11 @@ button {
     margin: 3vw auto;
 }
 
+.solar_intro_text {
+    text-align: center;
+    margin: 3vw auto;
+}
+
 .solar_packages_group {
     justify-content: space-around;
     align-items: center;
@@ -566,7 +571,7 @@ button {
     justify-content: space-around;
     align-items: center;
     width: 31%;
-    height: 550px;
+    height: 600px;
     margin-bottom: 3vw;
     background-color: transparent;
 }
@@ -577,13 +582,14 @@ button {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+    margin-bottom: 10px;
 }
 
 .package_card_front {
     border-radius: 5px;
     background-color: rgb(216, 235, 250);
     width: 100%;
-    margin-bottom: 10px;
+    
 }
 
 .package_card_back {
@@ -599,7 +605,6 @@ button {
 }
 
 .package_image {
-    /* background-color: #ccc; */
     width: 95%;
     height: 40%;
 }
@@ -612,7 +617,7 @@ button {
 }
 
 .package_body {
-    padding: 20px 15px;
+    padding: 10px;
     width: 100%;
 
 }
@@ -632,6 +637,7 @@ button {
 }
 
 .flipcard_btn {
+    margin-bottom: 10px;
     width: 50%;
     padding: 3px;
     border-radius: 5px;
