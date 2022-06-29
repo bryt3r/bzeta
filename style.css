@@ -501,7 +501,7 @@ button {
     height: 35vw;
 }
 
-.solar_hero_front, .network_hero_front {
+.services_hero_front {
     padding: 10px 5px;
     color: white;
     background-color: rgba(0, 0, 100, 0.4);
@@ -1034,7 +1034,7 @@ button {
         flex: 1;
     }
 
-    .solar_hero_front, .network_hero_front {
+    .services_hero_front {
         font-size: 4vw;
         padding: 10px 40px;
         min-height: 15%;
