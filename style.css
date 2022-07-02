@@ -13,6 +13,10 @@ body {
     letter-spacing: 1px;
 }
 
+p {
+    margin-bottom: 5px;
+}
+
 #page_container {
     position: relative;
     min-height: 100vh;
@@ -761,9 +765,11 @@ button {
 }
 
 .article_body {
-    padding: 5px;
+    padding: 15px 5px;
     justify-content: space-around;
     align-items: flex-start;
+    color: grey;
+    line-height: 1.3;
 }
 
 .article_image {
@@ -824,7 +830,16 @@ button {
     }
 
     .article_box {
-        font-size: 2.2vw;
+        /* font-size: 2.2vw; */
+        width: 100%;
+    }
+
+    .article_body {
+        display: block;
+        /* text-align: justify; */
+    }
+
+    .article_excerpt {
         width: 100%;
     }
 
