@@ -685,9 +685,9 @@ button {
     backface-visibility: hidden;
 }
 
-
-
 /* SOLAR */
+
+
 
 /* BLOG */
 .blog_nav {
@@ -720,7 +720,7 @@ button {
 
 .articles_area_wrapper {
     background-color: rgba(0, 0, 255, 0.1);
-    /* width: 95vw; */
+    width: 75vw;
     margin: 0 auto;
     justify-content: space-around;
 }
@@ -740,37 +740,39 @@ button {
 }
 
 .articles_wrapper {
-    justify-content: space-around;
-    padding: 2vw;
-    width: 95%;
+    /* justify-content: space-around; */
+    padding: 1vw 0;
+    width: 100%;
     margin: 1vw auto;
 }
 
 .articles_main_group {
-    width: 75%;
+    width: 60%;
     margin-bottom: 5vw;
 
 }
 
 .article_box {
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 10px;
     margin: 10px 2px;
     justify-content: space-around;
-    width: 80%;
-    height: 25vw;
+    /* height: 25vw; */
 }
 
 .article_body {
+    padding: 5px;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .article_image {
-    width: 30%;
+    float: left;
+    width: 40%;
 }
 
 .article_image img {
+    padding: 5px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -782,7 +784,7 @@ button {
 }
 
 .articles_sidebar {
-    width: 25%;
+    width: 30%;
 }
 
 .sidebox {
@@ -803,6 +805,10 @@ button {
 
     /* BLOG */
 
+    .articles_area_wrapper {
+        width: 100vw;
+    }
+
     .articles_search {
         width: 70%;
     }
@@ -818,8 +824,7 @@ button {
     }
 
     .article_box {
-        font-size: 3vw;
-        height: 60vw;
+        font-size: 2.2vw;
         width: 100%;
     }
 
