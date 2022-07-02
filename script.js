@@ -44,7 +44,7 @@ function showSlide(n) {
 
 function flipCard() {
   let i;
-  let boxes = document.querySelectorAll(".package_box");
+  let boxes = document.querySelectorAll(".package_card");
   let cards = document.querySelectorAll(".package_card");
 
   boxes.forEach((box, i) => {
