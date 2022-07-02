@@ -558,7 +558,8 @@ button {
     margin: 3vw auto;
 }
 
-.solar_intro_text, .network_intro {
+.solar_intro_text,
+.network_intro {
     text-align: center;
     margin: 3vw auto;
 }
@@ -593,7 +594,7 @@ button {
     border-radius: 5px;
     background-color: rgb(216, 235, 250);
     width: 100%;
-    
+
 }
 
 .package_card_back {
@@ -777,11 +778,28 @@ button {
 }
 
 .article_image {
+    padding: 10px;
+    width: 100%;
+}
+
+.article_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.article_post {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.article_excerpt_image {
     float: left;
     width: 40%;
 }
 
-.article_image img {
+.article_excerpt_image img {
     padding: 0 10px;
     width: 100%;
     height: 100%;
