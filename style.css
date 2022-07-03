@@ -894,6 +894,14 @@ button {
         width: 90%;
     }
 
+    .create_article_wrapper {
+        width: 95vw;
+    }
+
+    .article_form {
+         width: 90%;
+    }
+
     .sidebox {
         height: 30vw;
     }
