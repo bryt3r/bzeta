@@ -56,34 +56,39 @@
             <div class="create_article_wrapper centerAlign">
                 <div class="article_form flex_col centerAlign">
                     <div class="form_title centerAlign">
-                        NEW ARTICLE
+                        
                     </div>
                     <form action="#">
-                        <div class="form_item centerAlign">
-                            <label for="title">Title</label>
-                            <input type="text" name="title" id="title" required>
-                        </div>
-                        <div class="form_item centerAlign">
-                            <label for="content">Content</label>
-                            <textarea name="content" id="" cols="30" rows="10" required></textarea>
-                        </div>
-                        <div class="form_item centerAlign">
-                            <label for="category">Category</label>
-                            <select name="category" id="category" required>
-                                <option value="">Select Category</option>
-                                <option value="tech">TECH</option>
-                                <option value="power">POWER</option>
-                            </select>
-                        </div>
-                        <div class="form_item centerAlign">
-                            <label for="publish">PUBLISH ?</label>
-                            <input type="checkbox" name="publish" id="publish">
-                        </div>
-                        <div class="form_item centerAlign">
-                            <input type="submit" value="SAVE">
-                        </div>
-                       
-
+                        <fieldset>
+                            <legend> NEW ARTICLE</legend>
+                            <div class="form_item centerAlign">
+                                <label for="title">Title</label>
+                                <input type="text" name="title" id="title" required>
+                            </div>
+                            <div class="form_item centerAlign">
+                                <label for="content">Content</label>
+                                <textarea name="content" id="" cols="30" rows="10" required></textarea>
+                            </div>
+                            <div class="form_item centerAlign">
+                                <label for="category">Category</label>
+                                <select name="category" id="category" required>
+                                    <option value="">Select Category</option>
+                                    <option value="tech">TECH</option>
+                                    <option value="power">POWER</option>
+                                </select>
+                            </div>
+                            <div class="form_item centerAlign">
+                                <label for="publish">Publish ?</label>
+                                <select name="category" id="category" required>
+                                    <option value="">--</option>
+                                    <option value="publish">PUBLISH</option>
+                                    <option value="save">SAVE ONLY</option>
+                                </select>
+                            </div>
+                            <div class="form_item centerAlign">
+                                <button type="submit"><i class="fa-solid fa-floppy-disk"></i> SAVE</button>
+                            </div>
+                        </fieldset>
                     </form>
                 </div>
             </div>
