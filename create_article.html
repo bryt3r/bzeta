@@ -56,9 +56,9 @@
             <div class="create_article_wrapper centerAlign">
                 <div class="article_form flex_col centerAlign">
                     <div class="form_title centerAlign">
-                        
+
                     </div>
-                    <form action="#">
+                    <form action="#" method="post" enctype="multipart/form-data">
                         <fieldset>
                             <legend> NEW ARTICLE</legend>
                             <div class="form_item centerAlign">
@@ -78,15 +78,11 @@
                                 </select>
                             </div>
                             <div class="form_item centerAlign">
-                                <label for="publish">Publish ?</label>
-                                <select name="category" id="category" required>
-                                    <option value="">--</option>
-                                    <option value="publish">PUBLISH</option>
-                                    <option value="save">SAVE ONLY</option>
-                                </select>
+                                <label for="imageFile">Select image:</label>
+                                <input type="file" id="imageFile" name="imageFile" accept="image/*">
                             </div>
                             <div class="form_item centerAlign">
-                                <button type="submit"><i class="fa-solid fa-floppy-disk"></i> SAVE</button>
+                                <button type="submit"><i class="fa-solid fa-floppy-disk"></i> PREVIEW</button>
                             </div>
                         </fieldset>
                     </form>

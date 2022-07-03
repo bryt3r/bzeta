@@ -10,7 +10,7 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="font_awesome/css/all.min.css">
 
-    <title>BLOG</title>
+    <title>HOME</title>
 </head>
 
 <body>
@@ -54,17 +54,6 @@
         <div id="main">
             <!-- all other page content  -->
 
-            <!-- Article Nav -->
-            <div class="blog_nav">
-                <div id="blog_nav_content">
-                    <ul class="blog_nav_links flex_row">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#tech">TECH</a></li>
-                        <li><a href="#power">POWER</a></li>
-                        <li><a href="#">Uncategorized</a></li>
-                    </ul>
-                </div>
-            </div>
             <!-- ARTICLE AREA -->
             <div class="articles_area_wrapper flex_col">
                 <div class="articles_search centerAlign flex_row">
@@ -118,62 +107,57 @@
 
                     </div>
 
-                    <div class="articles_sidebar centerAlign flex_col">
-                        <div class="sidebox flex_col">
-                            <p class="sidebox_title">Lorem ipsum dolor sit amet consectetur.</p>
-                            <hr>
-                            <p class="sidebox_body">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit.
-                                Corporis sapiente eum
-                                velit maxime commodi nihil?
-                            </p>
-                        </div>
-                        <div class="sidebox flex_col">
-                            <p class="sidebox_title">Lorem ipsum dolor sit amet consectetur.</p>
-                            <hr>
-                            <p class="sidebox_body">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit.
-                                Corporis sapiente eum
-                                velit maxime commodi nihil?
-                            </p>
-                        </div>
+                </div>
 
-                    </div>
 
+                <div class="article_form flex_col centerAlign">
+
+                    <form action="#" method="post" enctype="multipart/form-data">
+                            <div class="centerAlign">
+                                <input hidden type="text" name="title" id="title" required>
+                                <textarea hidden name="content" id="" cols="30" rows="10" required></textarea>
+                                <select hidden name="category" id="category" required>
+                                    <option value="">Select Category</option>
+                                    <option value="tech">TECH</option>
+                                    <option value="power">POWER</option>
+                                </select>
+                            </div>
+                            <div class="form_item centerAlign">
+                                <label for="publish">Publish ?</label>
+                                <select name="category" id="category" required>
+                                    <option value="">--</option>
+                                    <option value="publish">PUBLISH</option>
+                                    <option value="save">SAVE ONLY</option>
+                                </select>
+                            </div>
+                            <div class="form_item preview_panel centerAlign flex_row">
+                                <button type="submit"><i class="fa-solid fa-pencil"></i> EDIT</button>
+                                <button type="submit"><i class="fa-solid fa-floppy-disk"></i> SAVE</button>
+                            </div>
+                    </form>
+    
                 </div>
             </div>
-
-
-            <div class="blog_footer">
-                <div id="blog_footer_content">
-                    <ul class="blog_footer_links flex_row">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#tech">TECH</a></li>
-                        <li><a href="#power">POWER</a></li>
-                        <li><a href="#">Uncategorized</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- FOOTER  -->
-            <footer id="footer">
-                <div id="footer_content" class="flex_col">
-                    <ul id="footer_links" class="flex_row">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
-                    <ul id="footer_sm_links" class="flex_row">
-                        <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a></li>
-                        <li><a href="#twitter"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
-                        <li><a href="#instagram"><i class="fa-brands fa-instagram-square fa-2x"></i></a></li>
-                        <li><a href="#facebook"><i class="fa-brands fa-facebook-square fa-2x"></i></a></li>
-                    </ul>
-                </div>
-            </footer>
+          
         </div>
 
+        <!-- FOOTER  -->
+        <footer id="footer">
+            <div id="footer_content" class="flex_col">
+                <ul id="footer_links" class="flex_row">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <ul id="footer_sm_links" class="flex_row">
+                    <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a></li>
+                    <li><a href="#twitter"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="#instagram"><i class="fa-brands fa-instagram-square fa-2x"></i></a></li>
+                    <li><a href="#facebook"><i class="fa-brands fa-facebook-square fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 
     <script src="script.js"></script>

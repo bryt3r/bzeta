@@ -825,7 +825,7 @@ button {
 }
 
 .article_form {
-    margin: 20px auto;
+    margin: 15px auto;
     width: 80%;
     justify-content: space-around;
 }
@@ -841,10 +841,22 @@ button {
     border-radius: 5px;
 }
 
+.article_form input, .article_form select  {
+    height: 30px;
+}
+
 .article_form select {
     width: 50%;
     border: none;
     border-radius: 5px;
+}
+
+.preview_panel {
+    justify-content: space-around;
+}
+
+.form_item button {
+     width: 45%;
 }
 
 
